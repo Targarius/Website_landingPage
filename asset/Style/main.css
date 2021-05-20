@@ -1,0 +1,48 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.75;
+    color: #4C5862;
+}
+
+a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2{
+    margin-bottom: 2rem;
+    color: #1F3E5A;
+}
+
+p{
+    margin-bottom: 4rem;
+}
+
+.white{
+    color: #fff;
+}
+
+/* * ---------------- BANNER ----------------  */
+
+header{
+    position: relative;
+}
+
+/* * ---------------- PRESENTATION 1 ----------------  */
+
+/* * ---------------- INFRASTRUCTURE ----------------  */
+
+/* * ---------------- PRESENTATION 2 ----------------  */
+
+/* * ---------------- FOOTER ----------------  */
+
+
+/* ! ---------------- DESKTOP ----------------  */
