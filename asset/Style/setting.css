@@ -1,0 +1,70 @@
+:root{
+    /* Colors */
+    --btn-start-color: #FF505C;
+    --title-color-dark: #1F3E5A;
+    --text-color-dark: #4C5862;
+    --text-color-white: #fff;
+
+    /* Fonts Weight */
+    --font-light: 300;
+    --font-regular: 400;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    /* Margin */
+    --mg-btm-desk-p: 4rem;
+    --mg-btm-mb-p: 40px;
+}
+
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+    color: #4C5862;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2{
+    margin-bottom: 2rem;
+    font-weight: var(--font-semi-bold);
+    color: #1F3E5A;
+}
+
+p{
+    margin-bottom: var(--mg-btm-mb-p);
+    line-height: 1.75;
+    font-weight: var(--font-light);
+}
+
+.btn{
+    display: inline-block;
+    width: 137px;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: var(--font-bold);
+    border-radius: 28px;
+}
+
+.btn_start{
+    color: var(--btn-start-color);
+    background-color: #fff;
+}
+
+.btn_learn{
+    border: solid 1px var(--text-color-white);
+    color: var(--text-color-white);
+    background-color: transparent;
+}
+
+.color-white{
+    color: var(--text-color-white);
+}
