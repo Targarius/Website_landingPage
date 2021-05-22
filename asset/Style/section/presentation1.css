@@ -1,0 +1,21 @@
+/* * ---------------- PRESENTATION 1 ----------------  */
+
+.presentation{
+    padding: 100px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.presentation_container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.presentation_container h1{
+    font-size: 1.75rem;
+}
+
+.editor_mobile{
+
+}
