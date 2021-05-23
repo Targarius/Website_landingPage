@@ -1,7 +1,7 @@
 /* * ---------------- PRESENTATION 1 ----------------  */
 
 .presentation{
-    padding: 100px 0;
+    padding: 100px 0 250px 0;
     text-align: center;
     overflow: hidden;
 }
@@ -16,6 +16,15 @@
     font-size: 1.75rem;
 }
 
-.editor_mobile{
-
+.illustration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 46px;
 }
+
+.editor_svg{
+    max-width: 326px;
+    margin: 0 auto;
+}
+

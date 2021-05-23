@@ -1,0 +1,21 @@
+/* * ---------------- PRESENTATION 2 ----------------  */
+
+.presentation2{
+    padding: 60px 0 100px 0;
+    text-align: center;
+}
+
+.presentation2_container{
+    padding: 0 1.5rem;
+}
+
+.illustration3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.text_2 p{
+    margin-bottom: 0;
+}
