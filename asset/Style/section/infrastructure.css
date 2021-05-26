@@ -1,9 +1,11 @@
 /* * ---------------- INFRASTRUCTURE ----------------  */
 
 .infrastructure{
-    padding: 230px 0 100px 0;
+    height: 625px;
     text-align: center;
-    background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+    background: top url(../../../svg/bg_phones.svg) no-repeat ,linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+    background-position: calc(100% - 50%) calc(100% - 258px),
+                         center;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
 }
@@ -15,23 +17,16 @@
     padding: 0 1.5rem;
 }
 
-.bg_phones_svg{
-    position: absolute;
-    top: -50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-
 .phones_svg{
     position: absolute;
-    top: -50%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .infrastructure_content{
-    z-index: 2;
+    margin-top: 230px;
+    margin-bottom: 100px;
 }
 
 .infrastructure_content h1{

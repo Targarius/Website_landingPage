@@ -45,6 +45,11 @@ p{
     font-weight: var(--font-light);
 }
 
+.text, .infrastructure_content{
+    max-width: 540px;
+    margin: 0 auto;
+}
+
 .btn{
     display: inline-block;
     width: 137px;
@@ -52,6 +57,7 @@ p{
     font-family: 'Ubuntu', sans-serif;
     font-weight: var(--font-bold);
     border-radius: 28px;
+    transition: color .3s, background .3s;
 }
 
 .btn_start{

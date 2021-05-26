@@ -23,12 +23,33 @@
 .footer_categorie h3{
     margin-bottom: 21px;
     font-size: 18px;
-    color: #fff;
     font-weight: 500;
+    color: #fff;
 }
 
 .footer_link{
     display: block;
     font-weight: 400;
     line-height: 2;
+    color: rgb(201, 201, 201);
+    transition: color .3s;
+}
+
+.footer_link:hover{
+    color: #fff;
+}
+
+.footer_link a{
+    position: relative;
+}
+
+.footer_link a:hover::after{
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
 }

@@ -13,6 +13,9 @@
     height: 100%;
     overflow: hidden;
     position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* ? NAV BAR */
@@ -44,6 +47,7 @@
 /* ? BANNER */
 
 .banner{
+    margin-bottom: 160px;
     text-align: center;
     z-index: 2;
 }
@@ -70,13 +74,23 @@
     justify-content: space-between;
 }
 
-.header_bg_img{
+.btn_start:hover{
+    color: #fff;
+    background-color: #f85865;
+}
+
+.btn_learn:hover{
+    color: #f85865;
+    background-color: #fff;
+}
+
+/* .header_bg_img{
     position: absolute;
     width: 933px;
     height: 935px;
     top: -139px;
     left: -200px;
     z-index: 1;
-}
+} */
 
 
