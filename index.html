@@ -75,7 +75,16 @@
       <h1 class="presentation_title">Designed for the future</h1>
       <div class="block right">
         <div class="illustration">
-          <img class="editor_svg" src="./svg/editor_mb.svg" alt="editor" width="326" height="326">
+          <picture>
+            <source 
+              media="(max-width: 799px)"
+              srcset="./svg/editor_mb.svg">
+            <source 
+              media="(min-width: 800px)"
+              srcset="/images/illustration-editor-desktop.svg">
+            <img class="editor_svg" src="./svg/editor_mb.svg" 
+            alt="laptop">
+          </picture>
         </div>
         <div class="text">
           <div class="text_1">
@@ -112,7 +121,16 @@
     <div class="presentation2_container">
       <div class="block">
         <div class="illustration3">
-          <img class="laptop" src="./svg/laptop_mb.svg" srcset="./svg/laptop_mb.svg, /images/illustration-laptop-desktop.svg" sizes="(min-width: 0px), (min-width: 800px)" alt="laptop" width="328" height="326">
+          <picture>
+            <source 
+              media="(max-width: 799px)"
+              srcset="./svg/laptop_mb.svg">
+            <source 
+              media="(min-width: 800px)"
+              srcset="/images/illustration-laptop-desktop.svg">
+            <img class="laptop" src="./svg/laptop_mb.svg" 
+            alt="laptop">
+          </picture>
         </div>
         <div class="text">
           <div class="text_1">

@@ -24,7 +24,86 @@
 }
 
 .editor_svg{
-    max-width: 326px;
+    width: 326px;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 800px){
+    .presentation{
+        margin: 50px 0 60px 0;
+        position: relative;
+    }
+    .block{
+        display: flex;
+    
+    }
+    .editor_svg{
+        position: absolute;
+        width: 500px;
+        height: 499px; 
+        top: 50%;
+        right: -141px;
+        transform: translateY(-50%);
+    }
+    .right .text{
+        margin: 0 50% 0 0;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .presentation{
+        margin: 100px 0 100px 0;
+    }
+    .editor_svg{
+        width: 675px;
+        height: 672px;
+        right: -190px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .presentation{
+        margin: 120px 0 120px 0;
+    }
+    .editor_svg{
+        width: 750px;
+        height: 747px;
+        right: -210px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .presentation{
+        margin: 170px 0 170px 0;
+    }
+    .block{
+        max-width: 1550px;
+        margin: 0 auto;
+    }
+    .editor_svg{
+        width: 885px;
+        height: 881px;
+        right: -250px;
+    }
+    .right .text{
+        margin: 0 50% 0 165px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .presentation{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .editor_svg{
+        position: static;
+        transform: translateY(-20%);
+    }
+    .text{
+        margin: 0 auto;
+    }
+}
+
 
