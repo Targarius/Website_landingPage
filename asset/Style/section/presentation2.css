@@ -16,6 +16,21 @@
     margin-bottom: 2rem;
 }
 
+.laptop{
+    width: 328;
+    height: 326;
+}
+
 .text_2 p{
     margin-bottom: 0;
+}
+
+@media screen and (min-width: 800px){
+    .presentation2{
+        margin: 116px 0 123px 0;
+    }
+    .block{
+        display: flex;
+    
+    }
 }
